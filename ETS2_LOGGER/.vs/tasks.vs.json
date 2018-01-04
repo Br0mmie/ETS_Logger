@@ -1,0 +1,20 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-ETS2_LOGGER",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskName": "task-ETS2_LOGGER",
+      "appliesTo": "ETS2_LOGGER/",
+      "type": "launch"
+    },
+    {
+      "taskName": "task-Ets2TelemetryData",
+      "appliesTo": "ETS2_LOGGER/Data/Ets2TelemetryData.cs",
+      "type": "launch"
+    }
+  ]
+}
